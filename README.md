@@ -1,9 +1,14 @@
+# What this repo does
 
+This repo allows us to rebrand Discovery without booting into the Discovery environment. It works by:
+
+- Setting up a local server on your machine, hosting our Discovery rebrand CSS file
+- Appending the rebrand CSS, and Roboto Mono files to the bottom of the `<head>` on every page that matches `test.discovery.nationalarchives.gov.uk`
 
 ### To setup the sass compiler/css server
 
-- Run `npm i -g http-server` 
-- Run `npm i -g grunt`
+- Run `npm i -g http-server` as this will host the CSS file
+- Run `npm i -g grunt` as this will watch for changes and build your SASS
 - Run `npm i -g sass`
 - Run `npm i` in this project
 - Run `http-server -p 3000 --cors` in this project
@@ -17,7 +22,7 @@
 
 ```
 // ==UserScript==
-// @name         TEST Discovery
+// @name         TNA Discovery Rebrand Script
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
@@ -67,4 +72,4 @@
 
 ## If a view isn't namespaced
 
-See the classAdder.js file to temporarily add a namespaced class to the pages. We will then add this namespaced class into the view when on Windows.
+If there is a page without a unique class and you need to target something specific, we will add a namespaced class to it when we implement this CSS into the Discovery Environment. To mimic adding a namespaced class to a page, see the classAdder.js file to temporarily add a namespaced class to the pages.
