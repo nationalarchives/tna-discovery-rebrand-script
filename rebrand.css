@@ -1289,4 +1289,12 @@ body #rt-input-form-holder {
   margin-left: 0 !important;
 }
 
+.catalogue-trial .breather {
+  padding-left: 0;
+}
+.catalogue-trial .holding-box:nth-of-type(2) {
+  border-top: 2px solid black;
+  margin-top: 12px;
+}
+
 /*# sourceMappingURL=rebrand.css.map */
