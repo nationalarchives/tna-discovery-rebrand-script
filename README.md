@@ -73,3 +73,7 @@ This repo allows us to rebrand Discovery without booting into the Discovery envi
 ## If a view isn't namespaced
 
 If there is a page without a unique class and you need to target something specific, we will add a namespaced class to it when we implement this CSS into the Discovery Environment. To mimic adding a namespaced class to a page, see the classAdder.js file to temporarily add a namespaced class to the pages.
+
+## Working remotely
+
+If you are working remotely, you can edit the tampermonkey script so the `@match` lines point to live discovery instead of TEST. However, you will not be able to make test orders.
