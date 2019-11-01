@@ -1,0 +1,141 @@
+.advanced-search {
+  .advanced-search-form {
+    border: solid 1px #ddd;
+    border-top: none;
+
+    input[type=text] {
+      border: 2px solid #000;
+      padding: 5px 3px;
+    }
+
+    input[type=submit] {
+      margin-right: 0.5em;
+      margin-left: 0;
+      background-color: #000;
+      font-family: "Roboto Mono", monospace;
+      border: 2px solid #000;
+      transition: none;
+      -webkit-transition: none;
+
+      &:hover {
+        background-color: #fff;
+        border: 2px solid #000;
+        text-decoration: underline;
+      }
+    }
+
+    fieldset {
+      padding: 0 1em;
+
+      .breather {
+        padding: 0;
+      }
+    }
+
+    fieldset:first-child {
+      > .form-heading {
+        border-top: none;
+      }
+    }
+  }
+
+  .button-holder, .buttons-at-top {
+    padding-right: 1em;
+
+    input:first-of-type {
+      background-color: #fff;
+      border: 2px solid #000;
+      color: #000;
+      transition: none;
+      -webkit-transition: none;
+      font-family: "Roboto Mono", monospace;
+
+      &:hover {
+        background-color: #000;
+        border: 2px solid #000;
+        text-decoration: underline;
+        color: #fff;
+      }
+    }
+  }
+
+  .form-heading {
+    border-top: 2px solid #000;
+    margin: 10px 0 1em 0;
+    padding: 0.5em 0;
+    font-family: 'Roboto Mono', monospace;
+
+    span {
+      background-image: none;
+
+      span {
+        background: #fff;
+        color: #000;
+        padding: 0;
+      }
+    }
+  }
+
+  .holding-box {
+    > .breather {
+      padding: 0px;
+
+      #tabs-pointed {
+        ul {
+          margin: 0;
+          position: relative;
+          border-bottom: 2px solid #000;
+          overflow: hidden;
+        }
+
+        .selected {
+          button {
+            background: #ddd;
+          }
+        }
+      }
+    }
+
+    .heading-holding-banner {
+      background-image: none;
+
+      h1 {
+        border-top: 2px solid #000;
+        padding-top: 10px;
+
+        span {
+          background-image: none;
+          margin-left: 0px;
+
+          span {
+            background: #fff;
+            color: #000;
+            padding: 4px 0px;
+          }
+        }
+      }
+    }
+
+    .holds-columns-together {
+      background: #fff;
+      padding: 0px;
+    }
+
+    .tri-down-fff {
+      display: none;
+    }
+  }
+
+  fieldset {
+    .breather {
+      .long-list {
+        background-color: #dde5d5;
+        padding: 1.6em;
+
+        input {
+          border: 2px solid #000;
+        }
+      }
+    }
+  }
+}

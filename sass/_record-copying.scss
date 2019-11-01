@@ -1,0 +1,53 @@
+.record-copying {
+  .breather {
+    padding-left: 0;
+  }
+
+  .bullet-list-tagging {
+    list-style-image: none;
+
+    li {
+      list-style-type: disc;
+    }
+
+  }
+
+  h1 {
+    span {
+      span {
+        padding-left: 0px;
+      }
+    }
+  }
+
+  h2  {
+    margin: 12px 0;
+    span {
+      background-image: none;
+      padding-top: 14px;
+      span {
+        border-top: 2px solid black;
+        background-color: #fff;
+        color: #000;
+
+      }
+    }
+
+  }
+
+  input[type=submit] {
+    background-color: $tna_black;
+    font-family: "Roboto Mono", monospace;
+    border: 2px solid $tna_black;
+      &:hover {
+        text-decoration: underline;
+        background-color: #fff;
+        color: #000;
+      }
+  }
+
+  li.selected {
+    background-color: #000 !important;
+    background-image: none !important;
+  }
+}

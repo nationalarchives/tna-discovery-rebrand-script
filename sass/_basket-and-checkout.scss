@@ -1,0 +1,65 @@
+.basket, .checkout {
+
+  h1 span span {
+    padding-left: 0px;
+    padding-top: 14px;
+  }
+  h2 {
+    margin: 12px 0;
+    span {
+      background-image: none;
+      padding-top: 14px;
+      width: 100%;
+      span {
+        border-top: 2px solid black;
+        color: #000;
+        background-color: #fff;
+      }
+    }
+  }
+
+  .breather {
+    padding-left: 0px;
+  }
+
+  .advanced-search-form input[type=reset],
+  .advanced-search-form input[type=submit],
+  .browse .sit-right, .call-to-action-link {
+    background-color: $tna_black;
+    border: 2px solid $tna_black;
+
+    &:hover {
+      background-color: #fff;
+      color: #000;
+    }
+
+    &.secondary {
+      background-color: #555 !important;
+      border: 2px solid #555;
+      color: #fff;
+
+      &:hover {
+        background-color: #fff !important;
+        color: #000;
+        border-color: $tna_black;
+      }
+    }
+  }
+
+  .basket-item {
+    border-bottom: 1px solid black;
+  }
+
+  .distinct {
+    border: none;
+  }
+
+  .order-items.distinct {
+    border: 1px solid black;
+  }
+
+  #basketItemsWrapper {
+    padding-left: 0;
+  }
+
+}

@@ -1,0 +1,93 @@
+.archives-home {
+
+  a {
+
+    path {
+      fill: #26262a ;
+    }
+
+  }
+
+  h2 {
+    span {
+      span {
+        padding-left: 0 !important;
+      }
+    }
+  }
+
+  li {
+
+    list-style-type: none;
+    list-style-image: none;
+
+  }
+
+  .a-z {
+
+    li {
+      a {
+        background-color: #000;
+        border: 2px solid #000;
+        font-family: inherit;
+        transition: none;
+        -webkit-transition: none;
+
+        &:hover {
+          background-color: #fff;
+          border: 2px solid #000;
+          color: #000;
+          text-decoration: underline;
+        }
+
+      }
+
+      span {
+        font-family: "Open Sans", sans-serif;
+      }
+
+      .alpha-disabled {
+        border: 2px solid #CCC;
+        font-family: inherit;
+      }
+    }
+
+    .selected {
+      text-decoration: underline;
+      background: #fff !important;
+      color: #000 !important;
+    }
+  }
+
+
+  .breather, .counties-selector, .countries-selector {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .counties-selector, .countries-selector {
+    li {
+      border-bottom: none;
+    }
+  }
+
+  #archive-search-tool {
+    input[type=submit] {
+      margin-right: 0.5em;
+      margin-left: 0;
+      background-color: #000;
+      font-family: "Roboto Mono", monospace;
+      border: 2px solid #000;
+      transition: none;
+      -webkit-transition: none;
+
+      &:hover {
+        background-color: #555;
+        border: 2px solid #555;
+        text-decoration: underline;
+      }
+    }
+    padding-left: 14px !important;
+  }
+
+}

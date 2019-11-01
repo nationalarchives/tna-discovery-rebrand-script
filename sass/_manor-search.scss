@@ -1,0 +1,45 @@
+.manor-search {
+
+  .advanced-search-form {
+
+    input[type=reset], input[type=submit] {
+      background-color: #000;
+      color: #fff;
+      font-family: 'Roboto Mono', monospace;
+      border: 2px solid black;
+
+      &:hover {
+        background-color: #fff;
+        color: #000;
+      }
+
+    }
+  }
+
+  .breather {
+    padding-left: 0 !important;
+  }
+
+  .form-heading {
+
+    font-family: 'Roboto Mono', monospace;
+
+    > span {
+      background-image: none;
+      > span {
+        color: #000;
+        background-color: #fff;
+      }
+
+    }
+  }
+
+  .heading-holding-banner h1 span {
+    padding-left: 0;
+  }
+
+  .holds-columns-together {
+    padding: 0;
+    background-color: #fff;
+  }
+}

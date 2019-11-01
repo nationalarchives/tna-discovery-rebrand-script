@@ -1,0 +1,150 @@
+.details-page {
+  a {
+    color: $rebrand_blue_default;
+  }
+
+  input[type=submit] {
+    background-color: #000;
+    color: #fff;
+  }
+
+  select {
+    border: 2px solid $tna_black;
+  }
+
+  .border-top {
+    border-top: 2px solid $tna_black;
+    padding: 0;
+  }
+
+  .details-form-spacing {
+    background-color: #fff;
+    border: solid 1px #ddd;
+
+    input[type="text"] {
+      border: 2px solid $tna_black;
+    }
+
+    input[type="submit"] {
+      border: 2px solid $tna_black;
+      font-family: 'Roboto Mono', monospace;
+
+      &:hover {
+        background-color: #fff;
+        color: black;
+      }
+    }
+
+    p, label {
+      color: black !important;
+      font-family: 'Roboto Mono', monospace;
+    }
+  }
+
+  .details-wrapper {
+    padding: 0;
+  }
+
+  .discoveryPrimaryCallToActionLink {
+     color: #fff;
+      transition: none;
+      -webkit-transition: none;
+
+    &:hover {
+      color: #000;
+      text-decoration: none;
+    }
+  }
+
+  .discoverySecondaryCallToActionLink {
+    font-family: "Roboto Mono", monospace;
+    border: 2px solid #000;
+
+    &:hover {
+      background-color: #fff;
+      color: #000;
+    }
+  }
+
+  .heading-span, .section-heading {
+    padding-top: .5em;
+  }
+
+  .holding-box {
+    padding-left: 0;
+  }
+
+  .nra-content {
+    h2, .breather {
+      padding-left: 0;
+    }
+  }
+
+  .nra-heading {
+    h2 {
+      border-top: 2px solid $tna_black;
+      padding-top: 14px;
+
+      span {
+        background-image: none;
+
+        span {
+          background-color: #fff;
+          color: $tna_black;
+        }
+      }
+    }
+  }
+
+  .order-option-wrapper {
+    background-color: #dde5d5;
+  }
+
+  .resource-spread {
+    .starts-at-full>.breather {
+      padding-left: 0 !important;
+    }
+  }
+
+  .row:nth-of-type(2) {
+    .border-top {
+      border-top: none;
+
+      .details-breather {
+        padding: 0;
+      }
+    }
+  }
+
+  .suggestion-form-div {
+    border: none;
+
+    .suggestion-form-wrapper {
+      padding: 0;
+
+      .form-field-group textarea {
+        border: 2px solid black;
+      }
+
+      input[type="text"], input[type="email"] {
+        border: 2px solid black !important;
+      }
+    }
+  }
+
+  #feedback-widget-row {
+    border-top: 2px solid black;
+
+    div {
+      padding: 0;
+    }
+
+    h2 {
+      padding-top: .5em;
+    }
+  }
+
+  #page_wrap>div.holding-box {
+    border-top: 2px solid $tna_black;
+  }
+}

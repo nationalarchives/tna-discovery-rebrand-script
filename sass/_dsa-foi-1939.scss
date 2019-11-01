@@ -1,0 +1,61 @@
+.dsaFoi1939 {
+  h1 {
+    span {
+      span {
+        padding-left: 0;
+      }
+    }
+  }
+
+  legend {
+    font-family: "Roboto Mono", monospace !important;
+    padding: 0 !important;
+  }
+
+  form {
+    border: 1px solid #ddd;
+    padding: 1.6em 1em;
+
+    label {
+      font-family: 'Roboto Mono', monospace;
+    }
+
+    #declaration {
+      label {
+        font-family: inherit;
+      }
+    }
+  }
+
+  fieldset {
+    border: none;
+    padding: 0 !important;
+  }
+
+  input[type="text"] {
+    border: 2px solid black !important;
+  }
+
+  input[type="submit"] {
+    font-family: "Roboto Mono", monospace !important;
+    text-decoration: none;
+    transition: none;
+    -webkit-transition: none;
+  }
+
+  select {
+    border: 2px solid black !important;
+  }
+
+  textarea {
+    border: 2px solid black !important;
+  }
+
+  .breather {
+    padding-left: 0;
+  }
+
+  .form-row {
+    margin-left: 0 !important;
+  }
+}

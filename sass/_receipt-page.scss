@@ -1,0 +1,26 @@
+.receipt-page {
+
+  .basket-item {
+    border-bottom: 1px solid black;
+  }
+
+  .distinct {
+    border: none;
+  }
+
+  .discoveryPrimaryCallToActionLink {
+    margin-right: 5px;
+  }
+
+  .order-items.distinct {
+    border: 1px solid black;
+  }
+
+  #basketItemsWrapper {
+    padding-left: 0;
+  }
+
+  #createAnAccountCallToAction {
+    border-left: 2px solid black;
+  }
+}
