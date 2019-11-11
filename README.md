@@ -30,7 +30,7 @@ This repo allows us to rebrand Discovery without booting into the Discovery envi
 // @match        https://test-discovery.nationalarchives.gov.uk
 // @match        https://test-discovery.nationalarchives.gov.uk/*
 // @match        https://testlb.discovery.nationalarchives.gov.uk/*
-// @match        https://test.discovery.nationalarchives.gov.uk/*
+// @match        https://test-discovery.nationalarchives.gov.uk/*
 // @grant        none
 // ==/UserScript==
 
