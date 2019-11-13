@@ -388,6 +388,16 @@ body #miniBasketWrapper .discoveryPrimaryCallToActionLink:hover {
 body #rt-input-form-holder {
   margin-left: 0 !important;
 }
+body #scope-selector {
+  border: 2px solid #fff;
+  height: 36px;
+  margin-right: -0.1em;
+}
+body #search-button {
+  background-color: #000;
+  border: 2px solid #fff;
+  color: #fff;
+}
 
 .browse h1 span span, .browse h2 span span {
   padding-left: 0;
@@ -464,10 +474,6 @@ body #rt-input-form-holder {
 
 .details-page a {
   color: #1d70b8;
-}
-.details-page input[type=submit] {
-  background-color: #000;
-  color: #fff;
 }
 .details-page select {
   border: 2px solid #26262a;
