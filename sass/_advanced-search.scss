@@ -1,6 +1,6 @@
 .advanced-search {
   .advanced-search-form {
-    border: solid 1px #ddd;
+    background-color: #f5f5f5;
     border-top: none;
 
     input[type=text] {
@@ -25,6 +25,8 @@
     }
 
     fieldset {
+      background-color: #f5f5f5;
+      border: none;
       padding: 0 1em;
 
       .breather {
@@ -69,7 +71,7 @@
       background-image: none;
 
       span {
-        background: #fff;
+        background: #f5f5f5;
         color: #000;
         padding: 0;
       }
@@ -89,8 +91,9 @@
         }
 
         .selected {
+          background: #dde5d5;
           button {
-            background: #ddd;
+            background: #dde5d5;
           }
         }
       }
