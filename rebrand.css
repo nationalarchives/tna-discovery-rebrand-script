@@ -600,8 +600,14 @@ body #search-button {
   border-top: 2px solid #26262a;
 }
 
+.home {
+  background-color: #ececec;
+}
 .home h1 span {
   font-family: "Roboto Mono", monospace;
+}
+.home h2 {
+  border-top: none !important;
 }
 .home h2 span span {
   padding-left: 0 !important;
@@ -711,7 +717,7 @@ body #search-button {
   font-family: "Roboto Mono", monospace;
 }
 .home .inline {
-  border-top: 1px solid black;
+  border-top: 2px solid black;
   padding-top: 0.6em;
 }
 .home .popular-collections {
@@ -719,7 +725,7 @@ body #search-button {
 }
 .home .popular-collections li {
   min-height: 115px;
-  width: 100%;
+  width: 48%;
 }
 .home .popular-collections li:nth-last-child(2) {
   margin-bottom: 10px;
@@ -758,6 +764,19 @@ body #search-button {
 }
 .home .discover-ww1 div h2 span span, .home .find-an-archive div h2 span span, .home .popular-tags div h2 span span {
   padding-left: 0;
+}
+@media only screen and (min-width: 1024px) {
+  .home .ends-at-one-third {
+    width: 28%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .home .ends-at-one-third {
+    width: 28%;
+  }
+}
+.home .holding-box {
+  padding: 1em;
 }
 .home .primary-search-box .search-form-container #search-all-collections {
   border: 2px solid black;
