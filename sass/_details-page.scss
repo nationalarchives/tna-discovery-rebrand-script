@@ -1,6 +1,24 @@
 .details-page {
+  background-color: #ececec;
+
   a {
     color: $rebrand_blue_default;
+  }
+
+  aside {
+      .details-breather {
+        .details-wrapper {
+          background-color: #ececec;
+        }
+      }
+  }
+
+  main {
+    .details-breather {
+      .details-wrapper {
+        padding: 1em;
+      }
+    }
   }
 
   select {
@@ -129,14 +147,24 @@
 
   #feedback-widget-row {
     border-top: 2px solid black;
+    background-color: #ececec;
 
     div {
       padding: 0;
     }
 
+    fieldset {
+      background-color: #ececec;
+      transition: none;
+    }
+
     h2 {
       padding-top: .5em;
     }
+  }
+
+  #hierarchy {
+    background-color: #ececec;
   }
 
   #page_wrap>div.holding-box {
