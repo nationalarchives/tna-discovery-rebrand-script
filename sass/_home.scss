@@ -82,9 +82,6 @@
       background-color: #fff;
       margin: 110px 0 -8px 0;
       padding-left: 0;
-      p {
-        font-family: 'Roboto Mono', monospace;
-      }
     }
   }
 
@@ -123,7 +120,6 @@
       .archive-search-positioner {
         #archive-search {
           border: 2px solid #000;
-          font-family: 'Roboto Mono', monospace;
         }
 
         #submit {
@@ -142,12 +138,10 @@
 
       label {
         color: #000;
-        font-family: 'Roboto Mono', monospace;
       }
 
       p {
         color: #000;
-        font-family: 'Roboto Mono', monospace;
       }
     }
   }
@@ -200,15 +194,27 @@
 
   .discover-ww1, .find-an-archive, .popular-tags {
     div {
-      padding-top: 0;
-      padding-left: 0;
       h2 {
+        font-family: "Open Sans", sans-serif;
         margin: 0;
         span {
           span {
             padding-left: 0;
           }
         }
+      }
+    }
+    div {
+      p {
+        font-family: "Open Sans", sans-serif;
+      }
+    }
+  }
+
+  .popular-tags {
+    div {
+      h2, p {
+        font-family: "Roboto Mono", monospace;
       }
     }
   }

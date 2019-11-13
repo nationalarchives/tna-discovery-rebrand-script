@@ -668,9 +668,6 @@ body #search-button {
   margin: 110px 0 -8px 0;
   padding-left: 0;
 }
-.home .discover-ww1 .discover-ww1-wrapper p {
-  font-family: "Roboto Mono", monospace;
-}
 .home .find-an-archive div h2 {
   background-color: #fff;
   border-top: 2px solid #000;
@@ -696,7 +693,6 @@ body #search-button {
 }
 .home .find-an-archive .archive-search-wrapper .archive-search-positioner #archive-search {
   border: 2px solid #000;
-  font-family: "Roboto Mono", monospace;
 }
 .home .find-an-archive .archive-search-wrapper .archive-search-positioner #submit {
   background-color: #000;
@@ -710,11 +706,9 @@ body #search-button {
 }
 .home .find-an-archive .archive-search-wrapper label {
   color: #000;
-  font-family: "Roboto Mono", monospace;
 }
 .home .find-an-archive .archive-search-wrapper p {
   color: #000;
-  font-family: "Roboto Mono", monospace;
 }
 .home .inline {
   border-top: 2px solid black;
@@ -755,15 +749,18 @@ body #search-button {
     background-position: center;
   }
 }
-.home .discover-ww1 div, .home .find-an-archive div, .home .popular-tags div {
-  padding-top: 0;
-  padding-left: 0;
-}
 .home .discover-ww1 div h2, .home .find-an-archive div h2, .home .popular-tags div h2 {
+  font-family: "Open Sans", sans-serif;
   margin: 0;
 }
 .home .discover-ww1 div h2 span span, .home .find-an-archive div h2 span span, .home .popular-tags div h2 span span {
   padding-left: 0;
+}
+.home .discover-ww1 div p, .home .find-an-archive div p, .home .popular-tags div p {
+  font-family: "Open Sans", sans-serif;
+}
+.home .popular-tags div h2, .home .popular-tags div p {
+  font-family: "Roboto Mono", monospace;
 }
 @media only screen and (min-width: 1024px) {
   .home .ends-at-one-third {
