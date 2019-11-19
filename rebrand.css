@@ -821,10 +821,11 @@ body #search-button {
   font-size: 1em;
 }
 .home #page_wrap section .more-options {
-  width: 98.7%;
-  background: none;
-  background-color: #555;
+  width: 100%;
+  background: #555 none;
   color: white;
+  padding-left: 0;
+  padding-right: 0;
 }
 .home #page_wrap section .more-options a {
   color: #fbe2bc;

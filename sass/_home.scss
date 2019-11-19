@@ -294,11 +294,11 @@
   #page_wrap {
     section {
       .more-options {
-        width: 98.7%;
-        background: none;
-        background-color: #555;
+        width: 100%;
+        background: #555 none;
         color: white;
-
+        padding-left: 0;
+        padding-right: 0;
         a {
           color: #fbe2bc;
         }
