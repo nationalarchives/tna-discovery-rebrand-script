@@ -229,7 +229,7 @@
   border: none;
 }
 .basket .order-items.distinct, .checkout .order-items.distinct {
-  border: 1px solid black;
+  background: #eee;
 }
 .basket #basketItemsWrapper, .checkout #basketItemsWrapper {
   padding-left: 0;
