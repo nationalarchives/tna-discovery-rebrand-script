@@ -72,26 +72,32 @@
           span {
             background-color: #fff;
             padding-top: 14px;
-            padding-bottom: 14px;
           }
         }
       }
     }
 
+    p {
+      padding-left: 14px;
+    }
+
     .discover-ww1-wrapper {
       background-color: #fff;
-      margin: 110px 0 -8px 0;
+      margin: 162px 0px -8px -16px;
       padding-left: 0;
     }
   }
 
   .find-an-archive {
     div {
+      margin-left: -16px;
+
       h2 {
         background-color: #fff;
         border-top: 2px solid #000;
         margin: 0;
-
+        padding-left: 14px;
+        font-family: 'Roboto Mono', monospace;
         span {
           background-image: none;
           margin-left: 0;
@@ -105,6 +111,14 @@
       }
     }
 
+    p, label {
+      padding-left: 14px;
+    }
+
+    .archive-search-positioner {
+      margin: 0;
+      padding-left: 14px;
+    }
     .archive-search-wrapper {
       background-color: #fff;
 
@@ -194,9 +208,11 @@
 
   .discover-ww1, .find-an-archive, .popular-tags {
     div {
+      margin-left: -16px;
       h2 {
-        font-family: "Open Sans", sans-serif;
+        font-family: 'Roboto Mono', monospace;
         margin: 0;
+        padding-left: 14px;
         span {
           span {
             padding-left: 0;
@@ -216,6 +232,9 @@
       h2, p {
         font-family: "Roboto Mono", monospace;
       }
+      p {
+        padding-left: 14px;
+      }
     }
   }
 
@@ -232,7 +251,7 @@
   }
 
   .holding-box {
-    padding: 1em;
+    padding-left: 1em;
   }
 
   .primary-search-box {

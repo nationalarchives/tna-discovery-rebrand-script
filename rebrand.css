@@ -661,17 +661,24 @@ body #search-button {
 .home .discover-ww1 div h2 span span {
   background-color: #fff;
   padding-top: 14px;
-  padding-bottom: 14px;
+}
+.home .discover-ww1 p {
+  padding-left: 14px;
 }
 .home .discover-ww1 .discover-ww1-wrapper {
   background-color: #fff;
-  margin: 110px 0 -8px 0;
+  margin: 162px 0px -8px -16px;
   padding-left: 0;
+}
+.home .find-an-archive div {
+  margin-left: -16px;
 }
 .home .find-an-archive div h2 {
   background-color: #fff;
   border-top: 2px solid #000;
   margin: 0;
+  padding-left: 14px;
+  font-family: "Roboto Mono", monospace;
 }
 .home .find-an-archive div h2 span {
   background-image: none;
@@ -681,6 +688,13 @@ body #search-button {
   background-color: #fff;
   padding-top: 14px;
   padding-bottom: 14px;
+}
+.home .find-an-archive p, .home .find-an-archive label {
+  padding-left: 14px;
+}
+.home .find-an-archive .archive-search-positioner {
+  margin: 0;
+  padding-left: 14px;
 }
 .home .find-an-archive .archive-search-wrapper {
   background-color: #fff;
@@ -749,9 +763,13 @@ body #search-button {
     background-position: center;
   }
 }
+.home .discover-ww1 div, .home .find-an-archive div, .home .popular-tags div {
+  margin-left: -16px;
+}
 .home .discover-ww1 div h2, .home .find-an-archive div h2, .home .popular-tags div h2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto Mono", monospace;
   margin: 0;
+  padding-left: 14px;
 }
 .home .discover-ww1 div h2 span span, .home .find-an-archive div h2 span span, .home .popular-tags div h2 span span {
   padding-left: 0;
@@ -761,6 +779,9 @@ body #search-button {
 }
 .home .popular-tags div h2, .home .popular-tags div p {
   font-family: "Roboto Mono", monospace;
+}
+.home .popular-tags div p {
+  padding-left: 14px;
 }
 @media only screen and (min-width: 1024px) {
   .home .ends-at-one-third {
@@ -773,7 +794,7 @@ body #search-button {
   }
 }
 .home .holding-box {
-  padding: 1em;
+  padding-left: 1em;
 }
 .home .primary-search-box .search-form-container #search-all-collections {
   border: 2px solid black;
