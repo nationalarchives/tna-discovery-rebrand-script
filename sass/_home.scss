@@ -165,6 +165,7 @@
     padding-top: 0.6em;
   }
 
+
   .popular-collections {
     margin-left: 0;
     li {
@@ -295,15 +296,11 @@
       .more-options {
         width: 98.7%;
         background: none;
-        background-color: #dde5d5;
-        color: #000;
+        background-color: #555;
+        color: white;
 
         a {
-          color: $rebrand_blue_default;
-
-          &:hover {
-            color: $rebrand_blue_hover;
-          }
+          color: #fbe2bc;
         }
 
       }

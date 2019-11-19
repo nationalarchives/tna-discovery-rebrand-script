@@ -823,14 +823,11 @@ body #search-button {
 .home #page_wrap section .more-options {
   width: 98.7%;
   background: none;
-  background-color: #dde5d5;
-  color: #000;
+  background-color: #555;
+  color: white;
 }
 .home #page_wrap section .more-options a {
-  color: #1d70b8;
-}
-.home #page_wrap section .more-options a:hover {
-  color: #003078;
+  color: #fbe2bc;
 }
 
 .manor-search .advanced-search-form input[type=reset], .manor-search .advanced-search-form input[type=submit] {
