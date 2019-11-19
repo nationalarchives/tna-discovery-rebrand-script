@@ -27,9 +27,9 @@ This repo allows us to rebrand Discovery without booting into the Discovery envi
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
+// @match        https://cdev-discovery.nationalarchives.gov.uk/
+// @match        https://cdev-discovery.nationalarchives.gov.uk/*
 // @match        https://test-discovery.nationalarchives.gov.uk
-// @match        https://test-discovery.nationalarchives.gov.uk/*
-// @match        https://testlb.discovery.nationalarchives.gov.uk/*
 // @match        https://test-discovery.nationalarchives.gov.uk/*
 // @grant        none
 // ==/UserScript==
