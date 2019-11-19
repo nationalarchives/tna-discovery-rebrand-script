@@ -195,6 +195,7 @@
 .checkout .browse .sit-right, .checkout .call-to-action-link {
   background-color: #26262a;
   border: 2px solid #26262a;
+  font-family: "Roboto Mono", monospace;
 }
 .basket .advanced-search-form input[type=reset]:hover,
 .basket .advanced-search-form input[type=submit]:hover,
@@ -209,18 +210,19 @@
 .basket .browse .sit-right.secondary, .basket .call-to-action-link.secondary, .checkout .advanced-search-form input[type=reset].secondary,
 .checkout .advanced-search-form input[type=submit].secondary,
 .checkout .browse .sit-right.secondary, .checkout .call-to-action-link.secondary {
-  background-color: #555 !important;
-  border: 2px solid #555;
-  color: #fff;
+  background-color: #fff !important;
+  border: 2px solid #26262a;
+  color: #000;
 }
 .basket .advanced-search-form input[type=reset].secondary:hover,
 .basket .advanced-search-form input[type=submit].secondary:hover,
 .basket .browse .sit-right.secondary:hover, .basket .call-to-action-link.secondary:hover, .checkout .advanced-search-form input[type=reset].secondary:hover,
 .checkout .advanced-search-form input[type=submit].secondary:hover,
 .checkout .browse .sit-right.secondary:hover, .checkout .call-to-action-link.secondary:hover {
-  background-color: #fff !important;
-  color: #000;
+  background-color: #26262a !important;
+  color: #fff;
   border-color: #26262a;
+  text-decoration: none;
 }
 .basket .basket-item, .checkout .basket-item {
   border-bottom: 1px solid black;
