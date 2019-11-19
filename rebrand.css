@@ -639,6 +639,7 @@ body #search-button {
   line-height: 130%;
   margin: 0;
   padding: 0.5em;
+  font-family: "Roboto Mono", monospace;
 }
 .home .call-to-action-link:hover {
   background: #fff;
