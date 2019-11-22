@@ -50,4 +50,19 @@
     background-color: #000 !important;
     background-image: none !important;
   }
+
+  div.copying-price {
+    padding-right: 0 !important;
+    padding-bottom: 3em !important;
+  }
+
+  #add-to-basket {
+    position: absolute;
+    bottom: 15px;
+    right: 1.5em !important;
+    margin-top: 14px;
+    top: unset !important;
+
+  }
+
 }

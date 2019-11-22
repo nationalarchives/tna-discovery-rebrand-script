@@ -1304,6 +1304,17 @@ body #search-button {
   background-color: #000 !important;
   background-image: none !important;
 }
+.record-copying div.copying-price {
+  padding-right: 0 !important;
+  padding-bottom: 3em !important;
+}
+.record-copying #add-to-basket {
+  position: absolute;
+  bottom: 15px;
+  right: 1.5em !important;
+  margin-top: 14px;
+  top: unset !important;
+}
 
 .dsaFoi1939 h1 span span {
   padding-left: 0;
