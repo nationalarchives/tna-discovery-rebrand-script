@@ -832,6 +832,40 @@ body #search-button {
 .home #page_wrap section .more-options a {
   color: #fbe2bc;
 }
+@media screen and (max-width: 380px) {
+  .home .breather {
+    padding-left: 1em !important;
+    width: 80%;
+  }
+  .home .discover-ww1 .discover-ww1-wrapper {
+    margin-left: 0;
+  }
+  .home .discover-ww1 div {
+    margin-left: 0;
+  }
+  .home .find-an-archive div {
+    margin-left: 0;
+  }
+  .home .heading-holding-banner {
+    padding-left: 14px;
+  }
+  .home .holding-box {
+    padding-left: 0;
+  }
+  .home .popular-collections {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .home .popular-collections li {
+    width: 100%;
+  }
+  .home .popular-tags div {
+    margin-left: 0;
+  }
+  .home .popular-tags div h2, .home .popular-tags div p {
+    padding-left: 0;
+  }
+}
 
 .manor-search .advanced-search-form input[type=reset], .manor-search .advanced-search-form input[type=submit] {
   background-color: #000;
