@@ -202,6 +202,7 @@
 .checkout .browse .sit-right:hover, .checkout .call-to-action-link:hover {
   background-color: #fff;
   color: #000;
+  text-decoration: none;
 }
 .basket .advanced-search-form input[type=reset].secondary,
 .basket .advanced-search-form input[type=submit].secondary,
@@ -350,7 +351,6 @@ body .newsletter-template .news-form .call-to-action-link {
 body .newsletter-template .news-form .call-to-action-link:hover {
   background: #fff;
   color: #000;
-  text-decoration: underline;
 }
 body #account-controls-wrapper {
   background-color: #555;
@@ -638,7 +638,6 @@ body #search-button {
 .home .call-to-action-link:hover {
   background: #fff;
   color: #000;
-  text-decoration: underline;
 }
 .home .discover-ww1 {
   background-color: #fff;
