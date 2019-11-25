@@ -540,18 +540,14 @@ body #search-button {
 .details-page .heading-span, .details-page .section-heading {
   padding-top: 0.5em;
 }
-.details-page .holding-box {
-  padding-left: 0;
-}
-.details-page .nra-content h2, .details-page .nra-content .breather {
-  padding-left: 0;
-}
 .details-page .nra-heading h2 {
   border-top: 2px solid #26262a;
+  margin-top: 0;
   padding-top: 14px;
 }
 .details-page .nra-heading h2 span {
   background-image: none;
+  margin-left: 0;
 }
 .details-page .nra-heading h2 span span {
   background-color: #fff;
@@ -559,9 +555,6 @@ body #search-button {
 }
 .details-page .order-option-wrapper {
   background-color: #dde5d5;
-}
-.details-page .resource-spread .starts-at-full > .breather {
-  padding-left: 0 !important;
 }
 .details-page .row:nth-of-type(2) .border-top {
   border-top: none;

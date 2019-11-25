@@ -83,23 +83,15 @@
     padding-top: .5em;
   }
 
-  .holding-box {
-    padding-left: 0;
-  }
-
-  .nra-content {
-    h2, .breather {
-      padding-left: 0;
-    }
-  }
-
   .nra-heading {
     h2 {
       border-top: 2px solid $tna_black;
+      margin-top: 0;
       padding-top: 14px;
 
       span {
         background-image: none;
+        margin-left: 0;
 
         span {
           background-color: #fff;
@@ -111,12 +103,6 @@
 
   .order-option-wrapper {
     background-color: #dde5d5;
-  }
-
-  .resource-spread {
-    .starts-at-full>.breather {
-      padding-left: 0 !important;
-    }
   }
 
   .row:nth-of-type(2) {
