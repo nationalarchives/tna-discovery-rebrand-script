@@ -486,6 +486,9 @@ body #search-button {
 .details-page aside .details-breather .details-wrapper {
   background-color: #ececec;
 }
+.details-page main > .border-top {
+  border-top: none;
+}
 .details-page main .details-breather .details-wrapper {
   padding: 1em;
 }
