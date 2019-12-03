@@ -1,5 +1,9 @@
 .receipt-page {
 
+  .breather {
+    padding-left: 0;
+  }
+
   .basket-item {
     border-bottom: 1px solid black;
   }
@@ -23,4 +27,31 @@
   #createAnAccountCallToAction {
     border-left: 2px solid black;
   }
+
+  .call-to-action-link {
+    cursor: pointer !important;
+    display: inline-block;
+    font-family: "Roboto Mono", monospace;
+    background-color: #fff;
+    border: 2px solid $tna_black;
+    color: #000;
+    margin-left: 0;
+
+    &.secondary {
+      background-color: $tna_black !important;
+      color: #fff;
+      border: 2px solid $tna_black;
+      &:hover {
+        background-color: #fff !important;
+        color: #000;
+      }
+    }
+
+    &:hover {
+      background-color: $tna_black;
+      color: #fff;
+    }
+
+  }
+
 }

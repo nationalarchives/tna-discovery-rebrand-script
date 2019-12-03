@@ -266,7 +266,7 @@ body ul.step-indicator li.active {
   background-color: #555 !important;
 }
 body ul.step-indicator li {
-  background-image: none;
+  background-image: none !important;
   background-color: #eee;
 }
 body .discoveryPrimaryCallToActionLink {
@@ -892,6 +892,9 @@ body #search-button {
   background-color: #fff;
 }
 
+.receipt-page .breather {
+  padding-left: 0;
+}
 .receipt-page .basket-item {
   border-bottom: 1px solid black;
 }
@@ -909,6 +912,28 @@ body #search-button {
 }
 .receipt-page #createAnAccountCallToAction {
   border-left: 2px solid black;
+}
+.receipt-page .call-to-action-link {
+  cursor: pointer !important;
+  display: inline-block;
+  font-family: "Roboto Mono", monospace;
+  background-color: #fff;
+  border: 2px solid #26262a;
+  color: #000;
+  margin-left: 0;
+}
+.receipt-page .call-to-action-link.secondary {
+  background-color: #26262a !important;
+  color: #fff;
+  border: 2px solid #26262a;
+}
+.receipt-page .call-to-action-link.secondary:hover {
+  background-color: #fff !important;
+  color: #000;
+}
+.receipt-page .call-to-action-link:hover {
+  background-color: #26262a;
+  color: #fff;
 }
 
 .search-results {

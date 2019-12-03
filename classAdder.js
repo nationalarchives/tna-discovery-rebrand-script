@@ -20,4 +20,8 @@ if(window.location.href.startsWith('https://test-discovery.nationalarchives.gov.
    body.classList.add('checkout');
 }
 
+if(window.location.href.startsWith('https://test-discovery.nationalarchives.gov.uk/checkout/receiptfailure')) {
+   body.classList.add('receipt-page')
+}
+
 
