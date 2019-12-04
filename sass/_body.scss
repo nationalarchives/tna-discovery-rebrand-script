@@ -56,6 +56,16 @@ body {
     }
   }
 
+  .order-option-main {
+
+    &.details-breather {
+      padding-left: 0;
+      padding-top: 0;
+    }
+
+  }
+
+
   .emphasis-block {
     background-color: #fbe2bc;
     border: 2px solid black;
@@ -155,6 +165,21 @@ body {
 
   #account-controls-wrapper {
     background-color: #555;
+  }
+
+  #downloadprogress {
+    >div#bar {
+      background-color: #dde5d5 !important;
+    }
+  }
+
+  #largeDownload {
+    p#recordlargemessage {
+
+      background-color: #fbe2bc !important;
+      border: none !important;
+      font-family: 'Roboto Mono', monospace;
+    }
   }
 
   #footer-wrapper {

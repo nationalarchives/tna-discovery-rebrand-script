@@ -278,6 +278,10 @@ body .discoveryPrimaryCallToActionLink:hover {
   background-color: #fff;
   text-decoration: none;
 }
+body .order-option-main.details-breather {
+  padding-left: 0;
+  padding-top: 0;
+}
 body .emphasis-block {
   background-color: #fbe2bc;
   border: 2px solid black;
@@ -354,6 +358,14 @@ body .newsletter-template .news-form .call-to-action-link:hover {
 }
 body #account-controls-wrapper {
   background-color: #555;
+}
+body #downloadprogress > div#bar {
+  background-color: #dde5d5 !important;
+}
+body #largeDownload p#recordlargemessage {
+  background-color: #fbe2bc !important;
+  border: none !important;
+  font-family: "Roboto Mono", monospace;
 }
 body #footer-wrapper {
   background-color: #000;
