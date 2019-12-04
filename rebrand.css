@@ -498,6 +498,11 @@ body #search-button {
 .details-page aside .details-breather .details-wrapper {
   background-color: #ececec;
 }
+.details-page input[type=submit] {
+  border: 2px solid #26262a;
+  background-color: #000;
+  font-family: "Roboto Mono", monospace;
+}
 .details-page main > .border-top {
   border-top: none;
 }
