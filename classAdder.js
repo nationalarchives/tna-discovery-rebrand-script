@@ -24,4 +24,9 @@ if(window.location.href.startsWith('https://test-discovery.nationalarchives.gov.
    body.classList.add('receipt-page')
 }
 
+if(window.location.href.startsWith('https://test-discovery.nationalarchives.gov.uk/downloadorder/')
+|| window.location.href.startsWith('https://ctest-discovery.nationalarchives.gov.uk/downloadorder/')) {
+   body.classList.add('download-order')
+}
+
 

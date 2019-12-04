@@ -278,10 +278,6 @@ body .discoveryPrimaryCallToActionLink:hover {
   background-color: #fff;
   text-decoration: none;
 }
-body .order-option-main.details-breather {
-  padding-left: 0;
-  padding-top: 0;
-}
 body .emphasis-block {
   background-color: #fbe2bc;
   border: 2px solid black;
@@ -1435,6 +1431,11 @@ body #search-button {
 .catalogue-trial .holding-box:nth-of-type(2) {
   border-top: 2px solid black;
   margin-top: 12px;
+}
+
+.download-order .order-option-main.details-breather {
+  padding-left: 0;
+  padding-top: 0;
 }
 
 /*# sourceMappingURL=rebrand.css.map */
