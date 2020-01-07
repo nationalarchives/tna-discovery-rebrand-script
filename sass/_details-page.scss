@@ -163,6 +163,72 @@
     background-color: #ececec;
   }
 
+  #name-authority {
+    .call-to-action-link {
+      background-color: #26262a;
+      border: 2px solid #26262a;
+      color: #fff;
+      font-family: "Roboto Mono", monospace;
+      transition: none;
+      -webkit-transition: none;
+
+      &:hover {
+        background-color: #fff;
+        border: 2px solid #26262a;
+        color: #26262a;
+      }
+    }
+
+    #collections {
+      caption {
+        font-family: "Roboto Mono", monospace;
+      }
+
+      thead {
+        tr {
+          background-color: #fff;
+          border-bottom: 2px solid #ddd;
+          padding-left: 1em;
+          padding-right: 1em;
+
+          &:hover {
+            background-color: #fff;
+          }
+
+          th {
+            font-weight: bold;
+          }
+        }
+      }
+
+      tbody {
+        .collection-row {
+          border-top: 1px solid #ddd;
+        }
+      }
+
+      .collection-row {
+        .number {
+          span {
+            background-color: #fff;
+            border-radius: 0;
+          }
+        }
+      }
+    }
+
+
+    .order-option-wrapper {
+      background-color: #dde5d5;
+      border-left: none;
+
+      .order-option-main {
+        padding-left: 16px;
+      }
+    }
+  }
+
+
   #page_wrap>div.holding-box {
     border-top: 2px solid $tna_black;
   }
