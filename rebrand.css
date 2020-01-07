@@ -619,25 +619,25 @@ body #search-button {
   border: 2px solid #26262a;
   color: #26262a;
 }
-.details-page #name-authority #collections caption {
+.details-page #name-authority #collections caption, .details-page #name-authority #relatedAuthorities caption {
   font-family: "Roboto Mono", monospace;
 }
-.details-page #name-authority #collections thead tr {
+.details-page #name-authority #collections thead tr, .details-page #name-authority #relatedAuthorities thead tr {
   background-color: #fff;
   border-bottom: 2px solid #ddd;
   padding-left: 1em;
   padding-right: 1em;
 }
-.details-page #name-authority #collections thead tr:hover {
+.details-page #name-authority #collections thead tr:hover, .details-page #name-authority #relatedAuthorities thead tr:hover {
   background-color: #fff;
 }
-.details-page #name-authority #collections thead tr th {
+.details-page #name-authority #collections thead tr th, .details-page #name-authority #relatedAuthorities thead tr th {
   font-weight: bold;
 }
-.details-page #name-authority #collections tbody .collection-row {
+.details-page #name-authority #collections tbody .collection-row, .details-page #name-authority #relatedAuthorities tbody .collection-row {
   border-top: 1px solid #ddd;
 }
-.details-page #name-authority #collections .collection-row .number span {
+.details-page #name-authority #collections .collection-row .number span, .details-page #name-authority #relatedAuthorities .collection-row .number span {
   background-color: #fff;
   border-radius: 0;
 }
