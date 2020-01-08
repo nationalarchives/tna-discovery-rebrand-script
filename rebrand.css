@@ -591,6 +591,7 @@ body #search-button {
 }
 .details-page .details-col-wrapper .col-2 .viewer-message {
   border: none;
+  border-left: 4px solid #ddd;
 }
 .details-page #feedback-widget-row {
   border-top: 2px solid black;
