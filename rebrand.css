@@ -589,6 +589,9 @@ body #search-button {
 .details-page .suggestion-form-div .suggestion-form-wrapper input[type=text], .details-page .suggestion-form-div .suggestion-form-wrapper input[type=email] {
   border: 2px solid black !important;
 }
+.details-page .asset-details .viewer-message {
+  border: none;
+}
 .details-page #feedback-widget-row {
   border-top: 2px solid black;
   background-color: #ececec;

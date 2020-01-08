@@ -141,8 +141,10 @@
     }
   }
 
-  .viewer-message {
-    border: none;
+  .asset-details {
+    .viewer-message {
+      border: none;
+    }
   }
 
   #feedback-widget-row {
