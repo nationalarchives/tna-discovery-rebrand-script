@@ -141,9 +141,11 @@
     }
   }
 
-  .asset-details {
-    .viewer-message {
-      border: none;
+  .details-col-wrapper {
+    .col-2 {
+     .viewer-message {
+       border: none;
+     }
     }
   }
 
