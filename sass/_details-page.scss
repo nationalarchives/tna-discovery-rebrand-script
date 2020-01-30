@@ -1,244 +1,245 @@
 .details-page {
-  background-color: #ececec;
+    background-color: #ececec;
 
-  a {
-    color: $rebrand_blue_default;
-  }
+    a {
+        color: $rebrand_blue_default;
+    }
 
-  aside {
-      .details-breather {
-        .details-wrapper {
-          background-color: #ececec;
+    aside {
+        .details-breather {
+            .details-wrapper {
+                background-color: #ececec;
+            }
         }
-      }
-  }
-
-  input[type="submit"] {
-    border: 2px solid $tna_black;
-    background-color: #000;
-    font-family: 'Roboto Mono', monospace;
-  }
-
-  main {
-    >.border-top {
-      border-top: none;
-    }
-    .details-breather {
-      .details-wrapper {
-        padding: 1em;
-      }
-    }
-  }
-
-  select {
-    border: 2px solid $tna_black;
-  }
-
-  .border-top {
-    border-top: 2px solid $tna_black;
-    padding: 0;
-  }
-
-  .details-form-spacing {
-    background-color: #fff;
-    border: solid 1px #ddd;
-
-    input[type="text"] {
-      border: 2px solid $tna_black;
     }
 
     input[type="submit"] {
-      border: 2px solid $tna_black;
-      background-color: #000;
-      font-family: 'Roboto Mono', monospace;
-
-      &:hover {
-        background-color: #fff;
-        color: black;
-      }
+        border: 2px solid $tna_black;
+        background-color: #000;
+        font-family: 'Roboto Mono', monospace;
     }
 
-    p, label {
-      color: black !important;
-      font-family: 'Roboto Mono', monospace;
-    }
-  }
-
-  .details-wrapper {
-    padding: 0;
-  }
-
-  .discoveryPrimaryCallToActionLink {
-     color: #fff;
-      transition: none;
-      -webkit-transition: none;
-
-    &:hover {
-      color: #000;
-      text-decoration: none;
-    }
-  }
-
-  .discoverySecondaryCallToActionLink {
-    font-family: "Roboto Mono", monospace;
-    border: 2px solid #000;
-
-    &:hover {
-      background-color: #fff;
-      color: #000;
-    }
-  }
-
-  .heading-span, .section-heading {
-    padding-top: .5em;
-  }
-
-  .nra-heading {
-    h2 {
-      border-top: 2px solid $tna_black;
-      margin-top: 0;
-      padding-top: 14px;
-
-      span {
-        background-image: none;
-        margin-left: 0;
-
-        span {
-          background-color: #fff;
-          color: $tna_black;
+    main {
+        > .border-top {
+            border-top: none;
         }
-      }
+
+        .details-breather {
+            .details-wrapper {
+                padding: 1em;
+            }
+        }
     }
-  }
 
-  .order-option-wrapper {
-    background-color: #dde5d5;
-  }
+    select {
+        border: 2px solid $tna_black;
+    }
 
-  .row:nth-of-type(2) {
     .border-top {
-      border-top: none;
-
-      .details-breather {
+        border-top: 2px solid $tna_black;
         padding: 0;
-      }
-    }
-  }
-
-  .suggestion-form-div {
-    border: none;
-
-    .suggestion-form-wrapper {
-      padding: 0;
-
-      .form-field-group textarea {
-        border: 2px solid black;
-      }
-
-      input[type="text"], input[type="email"] {
-        border: 2px solid black !important;
-      }
-    }
-  }
-
-  .details-col-wrapper {
-    .col-2 {
-     .viewer-message {
-       border: none;
-       border-left: 4px solid #ddd;
-     }
-    }
-  }
-
-  #feedback-widget-row {
-    border-top: 2px solid black;
-    background-color: #ececec;
-
-    div {
-      padding: 0;
     }
 
-    fieldset {
-      background-color: #ececec;
-      transition: none;
-    }
-
-    h2 {
-      padding-top: .5em;
-    }
-  }
-
-  #hierarchy {
-    background-color: #ececec;
-  }
-
-  #name-authority {
-    .call-to-action-link {
-      background-color: #26262a;
-      border: 2px solid #26262a;
-      color: #fff;
-      font-family: "Roboto Mono", monospace;
-      transition: none;
-      -webkit-transition: none;
-
-      &:hover {
+    .details-form-spacing {
         background-color: #fff;
-        border: 2px solid #26262a;
-        color: #26262a;
-      }
+        border: solid 1px #ddd;
+
+        input[type="text"] {
+            border: 2px solid $tna_black;
+        }
+
+        input[type="submit"] {
+            border: 2px solid $tna_black;
+            background-color: #000;
+            font-family: 'Roboto Mono', monospace;
+
+            &:hover {
+                background-color: #fff;
+                color: black;
+            }
+        }
+
+        p, label {
+            color: black !important;
+            font-family: 'Roboto Mono', monospace;
+        }
     }
 
-    #collections, #relatedAuthorities{
-      caption {
+    .details-wrapper {
+        padding: 0;
+    }
+
+    .discoveryPrimaryCallToActionLink {
+        color: #fff;
+        transition: none;
+        -webkit-transition: none;
+
+        &:hover {
+            color: #000;
+            text-decoration: none;
+        }
+    }
+
+    .discoverySecondaryCallToActionLink {
         font-family: "Roboto Mono", monospace;
-      }
+        border: 2px solid #000;
 
-      thead {
-        tr {
-          background-color: #fff;
-          border-bottom: 2px solid #ddd;
-          padding-left: 1em;
-          padding-right: 1em;
-
-          &:hover {
+        &:hover {
             background-color: #fff;
-          }
-
-          th {
-            font-weight: bold;
-          }
+            color: #000;
         }
-      }
-
-      tbody {
-        .collection-row {
-          border-top: 1px solid #ddd;
-        }
-      }
-
-      .collection-row {
-        .number {
-          span {
-            background-color: #fff;
-            border-radius: 0;
-          }
-        }
-      }
     }
 
+    .heading-span, .section-heading {
+        padding-top: .5em;
+    }
+
+    .nra-heading {
+        h2 {
+            border-top: 2px solid $tna_black;
+            margin-top: 0;
+            padding-top: 14px;
+
+            span {
+                background-image: none;
+                margin-left: 0;
+
+                span {
+                    background-color: #fff;
+                    color: $tna_black;
+                }
+            }
+        }
+    }
 
     .order-option-wrapper {
-      background-color: #dde5d5;
-      border-left: none;
-
-      .order-option-main {
-        padding-left: 16px;
-      }
+        background-color: #dde5d5;
     }
-  }
+
+    .row:nth-of-type(2) {
+        .border-top {
+            border-top: none;
+
+            .details-breather {
+                padding: 0;
+            }
+        }
+    }
+
+    .suggestion-form-div {
+        border: none;
+
+        .suggestion-form-wrapper {
+            padding: 0;
+
+            .form-field-group textarea {
+                border: 2px solid black;
+            }
+
+            input[type="text"], input[type="email"] {
+                border: 2px solid black !important;
+            }
+        }
+    }
+
+    .details-col-wrapper {
+        .col-2 {
+            .viewer-message {
+                border: none;
+                border-left: 4px solid #ddd;
+            }
+        }
+    }
+
+    #feedback-widget-row {
+        border-top: 2px solid black;
+        background-color: #ececec;
+
+        div {
+            padding: 0;
+        }
+
+        fieldset {
+            background-color: #ececec;
+            transition: none;
+        }
+
+        h2 {
+            padding-top: .5em;
+        }
+    }
+
+    #hierarchy {
+        background-color: #ececec;
+    }
+
+    #name-authority {
+        .call-to-action-link {
+            background-color: #26262a;
+            border: 2px solid #26262a;
+            color: #fff;
+            font-family: "Roboto Mono", monospace;
+            transition: none;
+            -webkit-transition: none;
+
+            &:hover {
+                background-color: #fff;
+                border: 2px solid #26262a;
+                color: #26262a;
+            }
+        }
+
+        #collections, #relatedAuthorities {
+            caption {
+                font-family: "Roboto Mono", monospace;
+            }
+
+            thead {
+                tr {
+                    background-color: #fff;
+                    border-bottom: 2px solid #ddd;
+                    padding-left: 1em;
+                    padding-right: 1em;
+
+                    &:hover {
+                        background-color: #fff;
+                    }
+
+                    th {
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            tbody {
+                .collection-row {
+                    border-top: 1px solid #ddd;
+                }
+            }
+
+            .collection-row {
+                .number {
+                    span {
+                        background-color: #fff;
+                        border-radius: 0;
+                    }
+                }
+            }
+        }
 
 
-  #page_wrap>div.holding-box {
-    border-top: 2px solid $tna_black;
-  }
+        .order-option-wrapper {
+            background-color: #dde5d5;
+            border-left: none;
+
+            .order-option-main {
+                padding-left: 16px;
+            }
+        }
+    }
+
+
+    #page_wrap > div.holding-box {
+        border-top: 2px solid $tna_black;
+    }
 }
